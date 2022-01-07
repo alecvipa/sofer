@@ -1,7 +1,7 @@
 
 .capitalBanner{
-    height: 50rem;
-    background-image: url("/assets/images/eventosMorado.jpg");
+    height: 42rem;
+    background-image: url("/assets/images/soferBanner.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,6 +10,7 @@
     background-position: 25% 85%; */
 
 }
+
 .bannerContacto{
     height: 20rem;
     background-image: url("/assets/images/events.jpg");
@@ -43,8 +44,10 @@
 }
 
 .fonts{
+    font-family: 'Inter', sans-serif;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
 .kaabNaabTitleNosotros{
@@ -55,17 +58,15 @@
 
 
 
-.navbar-toggler {
-    background-color: #725E6B !important;
-} 
+
 .logoCapitalNavBar{
     height: 9rem;
 }
-.nav-link{
-    color: black !important;
+.letterNav{
+    color: #468a89 !important;
     
 }
-.nav-link:hover{
+.letterNav:hover{
     color: #D45C6C !important;
 }
 
@@ -143,6 +144,13 @@
     }
 }
 @media(max-width:991px){
+    .somosCol{
+
+        margin-top: 7%;
+    }
+    .titleClienteSofer{
+        font-size: 2rem !important;
+    }
     .btnReservar{
         margin-top: 7%;
     }
@@ -188,6 +196,7 @@
     }
     .capitalBanner{
         height: 32rem;
+        background-image: url("/assets/images/soferResponsive.jpg");
     
     }
     .containerLashesProducts{
