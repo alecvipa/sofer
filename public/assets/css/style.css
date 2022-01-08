@@ -19,8 +19,8 @@
     background-size: cover;
 }
 .titleContactoBannerOverlay{
-    background-color: rgba(0, 0, 0, 0.527);
-    padding: 3%;
+    /* background-color: rgba(0, 0, 0, 0.527); */
+    padding: 2%;
     height: 100%;
     width: 100%;
 }
@@ -128,7 +128,7 @@
     background: #fff!important;
 }
 .containerTitleBanner{
-    margin-top: 2%;
+    margin-top: 0%;
 }
 .contactoSection{
     padding-top: 5%;
@@ -144,6 +144,12 @@
     }
 }
 @media(max-width:991px){
+    .cardStyle2{
+        margin-top: 10%;
+    }
+    .cardStyle{
+        margin-left: 11%;
+    }
     .somosCol{
 
         margin-top: 7%;
@@ -175,7 +181,7 @@
     }
     .titleContactoBanner{
         font-size: 25px;
-        margin-top: 12%;
+        margin-top: 0%;
     }
     .containerServiciosLanding{
         margin-left: 12%;
