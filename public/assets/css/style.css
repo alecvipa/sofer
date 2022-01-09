@@ -10,6 +10,12 @@
     background-position: 25% 85%; */
 
 }
+.backgroundSoferBluelight{
+    background-color: #E3EEEE !important;
+}
+.backgroundSoferBlue{
+    background-color: #B0D8D7 !important;
+}
 
 .bannerContacto{
     height: 20rem;
@@ -35,11 +41,12 @@
     color: white;
 }
 .privacidadBanner{
-    height: 40rem;
-    background-image: url("/assets/images/wedding.jpg");
+    height: 8rem;
+    background-color: #E3EEEE;
+    /* background-image: url("/assets/images/wedding.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
   
 }
 
@@ -112,13 +119,13 @@
 .imgLogoFooter{
     margin-left: 50%;
     margin-top: -10%;
-    width: 123px !important;
+    width: 17rem !important;
 }
 .privacidadContainer{
-    padding-top: 22%;
+    padding-top: 2%;
 }
 .privacidadTitle{
-    color: white;
+    color: #4B4B4B;
 }
 .tablePrivacidad{
     margin-top: 5%;
@@ -221,10 +228,10 @@
         margin-bottom: 15%;
     }
     .privacidadContainer{
-        padding-top: 72%;
+        padding-top: 25%;
     }
     .privacidadBanner{
-        height: 35rem;
+        height: 17rem;
         
     }
     .titleCompletaTresCursos{
