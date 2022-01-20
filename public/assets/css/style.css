@@ -16,6 +16,9 @@
 .backgroundSoferBlue{
     background-color: #B0D8D7 !important;
 }
+.boldSete{
+    font-weight: 700 !important;
+}
 
 .bannerContacto{
     height: 20rem;
@@ -145,12 +148,20 @@
 .carouselContainerKaab{
     padding-top: 2%;
 }
+.bandejaSofer{
+    font-size: 15px;
+    color: black !important;
+}
 @media(min-width:992px){
     .carouselGallery{
         display: none;
     }
 }
 @media(max-width:991px){
+    .imgCofe{
+        width: 17rem;
+        margin-left: 11%;
+    }
     .cardStyle2{
         margin-top: 10%;
     }

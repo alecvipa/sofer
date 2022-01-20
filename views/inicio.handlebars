@@ -24,8 +24,9 @@
     <div>
         <div class="jumbotron bg-light">
             <div class="container">
-                <h1 class="display-4 titleClienteSofer" style="color: #4B4B4B;">¿Ya eres cliente Sofer?</h1>
-                <p class="lead" style="color: #979797;">Tenemos aliados comerciales con distintas empresas y contamos
+                <h1 class="display-4 titleClienteSofer" style="color: black;">¿Ya eres cliente Sofer?</h1>
+                <p class="lead" style="color: rgb(102, 101, 101);">Tenemos aliados comerciales con distintas empresas y
+                    contamos
                     con convenios estratégicos
                     con
                     nuestros proveedores, buscando siempre estar a la vanguardia con las exigencias del mercado.
@@ -37,7 +38,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="row">
+        <div class="row boldSete" style="color: black;">
             <div class="col-md-6">
                 <img src="/assets/images/laboratory.jpg" class="img-fluid" alt="Responsive image"
                     style="border-radius: 8px;">
@@ -52,7 +53,7 @@
                         farmacéutica, alimenticia, agrícola y pecuaria. Importamos, exportamos y distribuimos productos
                         y aditamentos. </li>
                     <li class="list-group-item">También tenemos una línea de productos especializados de venta de
-                        gasolinas, diesel, aceites, combustóleo, solventes e hidrocarburos. </li>
+                        aditivos, aceites, combustóleo, solventes e hidrocarburos. </li>
                     <li class="list-group-item">Tenemos la experiencia y conocimiento para otorgar el mejor servicio y
                         producto. Somo una empresa que está en constante crecimiento, nuestros objetivos nos llevan a
                         garantizar un crecimiento sostenido y sustentable en distintos sectores. </li>
@@ -97,10 +98,10 @@
 <div class="serviciosDivLanging">
     <div class="container">
         <div class="row text-center">
-            <h1>Lo más vendido</h1>
+            <h1 class="boldSete">Lo más vendido</h1>
         </div>
         <br>
-        <div class="row">
+        <div class="row" style="color: black;">
             <div class="col-md-4 col-sm-12">
                 <div class="card cardStyle" style="width: 18rem;">
                     <img class="card-img-top" src="/assets/images/limpieza.jpg" alt="Card image cap">
@@ -139,25 +140,25 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-12 somosCol">
-                <h4>
+                <h4 class="boldSete">
                     Nuestros productos
                 </h4> <br>
                 <ul class="list-group">
                     <li class="list-group-item disabled">Productos químicos y cosmetología</li>
-                    <li class="list-group-item">
+                    <li class="list-group-item boldSete" style="color: black;">
                         Tenemos alianzas comerciales para la importación y distribución de productos químicos y
                         aditamentos. Contamos con una línea de artículos para el cuidado personal y belleza estética.
                         <br><a href="#contacto">Conocer más...</a>
                     </li>
                     <li class="list-group-item disabled">Productos médicos y farmacéutica</li>
-                    <li class="list-group-item">
+                    <li class="list-group-item boldSete" style="color: black;">
                         En Ing Químicos Especializados Sofer distribuimos, importamos y exportamos, compramos y vendemos
                         productos médicos, farmacéuticos, material hospitalario, odontológico, traumatológico, de
                         laboratorio y conexos. Tenemos venta de productos de consumo masivo y productos para bodegas.
                         <br><a href="#contacto">Conocer más...</a>
                     </li>
                     <li class="list-group-item disabled">Productos petroquímicos</li>
-                    <li class="list-group-item">
+                    <li class="list-group-item boldSete" style="color: black;">
                         Otorgamos servicios de logística, consultoría, compra y venta de productos para la industria
                         petroquímica. Tenemos una amplia experiencia en el mercado de solventes, productos químicos
                         industriales y plastificados. Proveemos productos especializados de alta gama para cumplir
@@ -165,7 +166,7 @@
                         <br><a href="#contacto">Conocer más...</a>
                     </li>
                     <li class="list-group-item disabled">Productos agrícolas y pecuarios</li>
-                    <li class="list-group-item">
+                    <li class="list-group-item boldSete" style="color: black;">
                         Comercializamos productos agropecuarios apoyándonos en procesos óptimos y medidas de
                         conservación para que los productos lleguen en condiciones óptimas a nuestros clientes y
                         posteriormente a los consumidores finales.
@@ -225,10 +226,11 @@
 <div id="contacto" class="contactoSection" style="background-color: #E3EEEE !important;">
     <div class="container text-center">
         <div class="row">
-            <div class="col-md-12 dondeDormiras">
-                <h5 style="color: #4B4B4B;">En Ing Químicos Especializados Sofer proveemos de productos de:
-                </h5> <hr>
-                <p class="text-secondary">
+            <div class="col-md-12 dondeDormiras boldSete">
+                <h5 style="color: black;">En Ing Químicos Especializados Sofer proveemos de productos de:
+                </h5>
+                <hr>
+                <p class="text-secondary boldSete">
                     Consumibles,
                     maquinaria y equipo a empresas de la industria médica, química, cosmética, farmacéutica,
                     alimenticia, agrícola y pecuaria. Importamos, exportamos y distribuimos productos y aditamentos.
@@ -244,7 +246,10 @@
                             <div class="col-md-3"></div>
                             <div class="col-md-6">
                                 <section class="card theForm">
-                                    <h5 class="card-header contactHeader">Contáctanos</h5>
+                                    <h5 class="card-header contactHeader">Contáctanos <br>
+                                    <hr>
+                                    <a href="mailto:contacto@quimicosofer.com" class="bandejaSofer">contacto@quimicosofer.com</a></h5>
+                                    
                                     <section class="card-body">
                                         <form action="/ajax/email" method="POST"
                                             onsubmit="return submitEmailForm(this);" id="myForm">
@@ -271,8 +276,8 @@
                                                 <div class="form-group">
                                                     <!-- Date input -->
                                                     <label class="control-label" for="date">Servicio de interés</label>
-                                                    <input class="form-control formInput" id="secondate"
-                                                        name="message" type="text" required />
+                                                    <input class="form-control formInput" id="secondate" name="message"
+                                                        type="text" required />
                                                 </div>
                                             </section>
                                             <br>
